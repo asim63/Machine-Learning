@@ -1,0 +1,72 @@
+# =========================
+# Python virtual environments
+# =========================
+venv/
+.venv/
+env/
+
+#Dataset files
+datasets/
+data/
+
+# =========================
+# Python cache and compiled files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Jupyter Notebook checkpoints
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment variables and secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE and editor settings
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Operating system files
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Logs and temporary files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# ML experiment outputs
+# =========================
+mlruns/
+wandb/
+lightning_logs/
+
+# =========================
+# Generated model files
+# =========================
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# =========================
+# Local datasets (review before enabling)
+# =========================
+# data/raw/
+# data/processed/
