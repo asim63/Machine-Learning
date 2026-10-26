@@ -9,6 +9,9 @@ env/
 datasets/
 data/
 
+#models
+model/
+
 # =========================
 # Python cache and compiled files
 # =========================
